@@ -206,34 +206,43 @@ top: 50%;
 @media only screen and (max-width: 480px) {
   
   .bubles>span{
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
   
     background:rgb(11, 186, 11);
-    margin: 0 1px;
+    margin: 0 0.5px;
     border-radius: 50%;
-    box-shadow: 0 0 5px green, 0 0 10px rgb(8, 157, 8),0 0 30px lawngreen;
+    box-shadow: 0 0 15px green, 0 0 30px rgb(8, 157, 8),0 0 80px lawngreen;
 
 
   }
 
   .bubles>span:nth-child(even){
     background: darkorchid;
-    box-shadow: 0 0 5px darkorchid,
-     0 0 10px darkorchid,0 0 30px darkorchid;
+    box-shadow: 0 0 15px darkorchid,
+     0 0 30px darkorchid,0 0 80px darkorchid;
     
   }
 
   .div1{
     position: relative;
-    
-    left: 15%;
+left: 15%;
     top: 50%;
     }
 
     .button-85 {
       width: 120px;
       height: 30px;
+    }
+
+}
+
+
+@media only screen and (max-width: 380px) {
+  .div1{
+    position: relative;
+left: 8%;
+    top: 50%;
     }
 
 }
