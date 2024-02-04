@@ -24,7 +24,7 @@ document.getElementById('Corazon').addEventListener('click', function() {
   var currentDate = new Date();
   
 
-  var deadline = new Date('2024-02-04');
+  var deadline = new Date('2024-02-14');
 
  
   if (currentDate < deadline) {
