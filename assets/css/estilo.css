@@ -23,6 +23,13 @@ justify-content: center;
 align-items: center;
 display: flex;
 }
+
+
+.encabezado>a{
+
+cursor:context-menu;
+
+}
 /* ///////////////////////////////////////////////////// */
 /* ///////////////////////////////////////////////////// */
 /* ///////////////////////////////////////////////////// */
@@ -97,6 +104,8 @@ top: 45%;
 .bubles{
   position: relative;
   display: flex;
+
+bottom: 10%;
 }
 .bubles>span{
   position: relative;

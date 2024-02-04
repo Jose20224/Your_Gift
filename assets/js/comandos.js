@@ -12,7 +12,7 @@ document.getElementById('flor').addEventListener('click', function() {
       return;
   }
 
-  // Si la fecha es posterior al 4 de febrero, redirigir al enlace
+
   window.location.href = "/Flor.html";
 });
 
@@ -24,7 +24,7 @@ document.getElementById('Corazon').addEventListener('click', function() {
   var currentDate = new Date();
   
 
-  var deadline = new Date('2024-02-14');
+  var deadline = new Date('2024-02-04');
 
  
   if (currentDate < deadline) {
@@ -34,10 +34,11 @@ document.getElementById('Corazon').addEventListener('click', function() {
   }
 
   // Si la fecha es posterior al 4 de febrero, redirigir al enlace
-  window.location.href = "/corazon.html";
+  window.location.href = "/AWESOME.html";
+
 });
-
-
+//////////////////
+////////////////////////
 
 // Función para iniciar el contador hasta una fecha y hora específicas
 function iniciarContador(fechaObjetivo) {
