@@ -19,24 +19,24 @@ document.getElementById('flor').addEventListener('click', function() {
 /////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////
-document.getElementById('remolino').addEventListener('click', function() {
-  // Obtener la fecha actual
-  var currentDate = new Date();
+// document.getElementById('remolino').addEventListener('click', function() {
+//   // Obtener la fecha actual
+//   var currentDate = new Date();
   
 
-  var deadline = new Date('2024-02-14');
+//   var deadline = new Date('2024-02-14');
 
  
-  if (currentDate < deadline) {
-      alert('El botón no estará activo hasta el 14 de febrero \n\n asta entoces sofia XD.');
-      // No hacer nada más si no es la fecha permitida
-      return;
-  }
+//   if (currentDate < deadline) {
+//       alert('El botón no estará activo hasta el 14 de febrero \n\n asta entoces sofia XD.');
+//       // No hacer nada más si no es la fecha permitida
+//       return;
+//   }
 
-  // Si la fecha es posterior al 4 de febrero, redirigir al enlace
-  window.location.href = "/AWESOME.html";
+//   // Si la fecha es posterior al 4 de febrero, redirigir al enlace
+//   window.location.href = "/AWESOME.html";
 
-});
+// });
 //////////////////
 ////////////////////////
 
@@ -75,5 +75,5 @@ function iniciarContador(fechaObjetivo) {
 }
 
 // Definir la fecha y hora objetivo (año, mes (de 0 a 11), día, horas, minutos, segundos)
-const fechaObjetivo = new Date(2024, 1, 14, 8, 0,0); // Ejemplo: 1 de junio de 2024 a las 12:00 PM
+const fechaObjetivo = new Date(2024, 3, 3, 8, 0,0); // Ejemplo: 1 de junio de 2024 a las 12:00 PM
 iniciarContador(fechaObjetivo);
