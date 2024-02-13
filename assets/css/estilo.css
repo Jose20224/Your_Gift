@@ -23,13 +23,6 @@ justify-content: center;
 align-items: center;
 display: flex;
 }
-
-
-.encabezado>a{
-
-cursor:context-menu;
-
-}
 /* ///////////////////////////////////////////////////// */
 /* ///////////////////////////////////////////////////// */
 /* ///////////////////////////////////////////////////// */
@@ -49,7 +42,7 @@ cursor:context-menu;
 .div1{
 position: relative;
 
-left: 35%;
+left: 42%;
 top: 30%;
 }
 
@@ -298,7 +291,7 @@ bottom: 10%;
 
   .div1{
     position: relative;
-left: 15%;
+left: 35%;
     top: 30%;
     }
 
@@ -323,7 +316,7 @@ left: 15%;
 @media only screen and (max-width: 380px) {
   .div1{
     position: relative;
-left: 8%;
+left: 28%;
     top: 30%;
     }
 
